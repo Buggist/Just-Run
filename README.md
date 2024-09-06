@@ -60,3 +60,7 @@ result = jr.call_pathon(
 ```
 
 This method allow you to run .py through specified python virtual environment, instead of main environment.
+
+## limitations
+
+ - Only supports passing Python native data types between scripts, such as: ***float***, ***dict***, ...
