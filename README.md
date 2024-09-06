@@ -1,7 +1,7 @@
 # Just-Run
-Enable multiple python environment work togather.
+The simplest way to enable multiple python environment work togather.
 
-## Example
+## Example - call by version
 
 caller.py
 ```python
@@ -36,3 +36,22 @@ params = jr.get_params()
 jr.return_data(your_processing_result)
 ```
 
+## Another Example - call by path
+
+caller.py
+```python
+# Windows 10
+# python 3.6
+
+import justrun as jr
+
+# run work.py through python 3.12 (that you already installed),
+# - and get processing result in this python 3.6 script.
+result = jr.call_pathon(
+    r"path\to\your\python312\environment\",
+    r"path\to\work.py",
+    params=[var, another_var]
+)
+```
+
+This method allow you to run .py through specified python virtual environment, instead of main environment.
