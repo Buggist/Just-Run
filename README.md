@@ -13,7 +13,7 @@ import justrun as jr
 # run work.py through python 3.12 (that you already installed),
 # - and get processing result in this python 3.6 script.
 result = jr.call_version(
-    312,
+    312,                        # in Linux/MacOS it should be "3.12" or 3.12
     r"path\to\work.py",
     params=[var, another_var]
 )
