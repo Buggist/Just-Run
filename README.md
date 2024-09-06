@@ -2,19 +2,37 @@
 Enable multiple python environment work togather.
 
 ##Example
+
+caller.py
 ```python
 # Windows 10
 # python 3.6
 
 import justrun as jr
 
-# run work.py through python 3.12,
+# run work.py through python 3.12 (that you already installed),
 # - and get processing result in this python 3.6 script.
 result = jr.call_version(
     312,
     r"path\to\work.py",
     params=[var, another_var]
 )
+```
 
+work.py
+```python
+# Windows 10
+# python 3.12
+
+import justrun as jr
+
+# get parameters from other python interpreter.
+params = jr.get_params()
+
+# do your work here
+# ...
+
+# and send back the processing result.
+jr.return_data(your_processing_result)
 ```
 
