@@ -45,10 +45,10 @@ caller.py
 
 import justrun as jr
 
-# run work.py through python 3.12 (that you already installed),
+# run work.py through specified python virtual environment (created with any version),
 # - and get processing result in this python 3.6 script.
 result = jr.call_pathon(
-    r"path\to\your\python312\environment\",
+    r"path\to\your\python312\environment",    # such as r"c:\python-sandbox\312-myvenv"
     r"path\to\work.py",
     params=[var, another_var]
 )
