@@ -1,6 +1,11 @@
 # Just-Run
 The simplest way to enable multiple python environment work togather.
 
+## Install
+```
+pip install justrun
+```
+
 ## Example - call by version
 
 caller.py
