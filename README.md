@@ -63,4 +63,4 @@ This method allow you to run .py through specified python virtual environment, i
 
 ## limitations
 
- - Only supports passing Python native data types between scripts, such as: ***int***, ***str***, ***dict***, ***bytes***, ...
+ - Only supports passing Python native data types between scripts, such as: ***int***, ***str***, ***dict***, ***bytes***, ... **Custom instance are not supported yet**.
