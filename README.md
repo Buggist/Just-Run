@@ -1,7 +1,7 @@
 # Just-Run
 Shut up and just run!
 
-You can call python scripts written with different python version and get the returned data.
+You can call python scripts with different versions of the python interpreter and get the returned data.
 
 ## Install
 ```
