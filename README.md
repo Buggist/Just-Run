@@ -1,5 +1,5 @@
 # Just-Run
-Shut up and just run!
+Shut up and just run it!
 
 You can call python scripts with different versions of the python interpreter, and get the returned data.
 
