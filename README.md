@@ -3,6 +3,8 @@ Shut up and just run it!
 
 You can call python scripts with different versions of the python interpreter, and get the returned data.
 
+It enable multiple python environment to work togather, even though they have different versions!
+
 ## Install
 ```
 pip install justrun
