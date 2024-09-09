@@ -1,5 +1,7 @@
 # Just-Run
-The simplest way to enable multiple python environment work togather.
+Shut up and just run!
+
+You can call python scripts written with different python version and get the returned data.
 
 ## Install
 ```
