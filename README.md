@@ -10,7 +10,7 @@ pip install justrun
 
 ## Example - call by version
 
-caller.py (Python 3.6)
+caller.py *(Python 3.6)*
 ```python
 # Windows 10
 # python 3.6
@@ -26,7 +26,7 @@ result = jr.call_version(
 )
 ```
 
-work.py (Python 3.12)
+work.py *(Python 3.6)*
 ```python
 # Windows 10
 # python 3.12
