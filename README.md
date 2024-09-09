@@ -26,7 +26,7 @@ result = jr.call_version(
 )
 ```
 
-work.py *(Python 3.6)*
+work.py *(Python 3.12)*
 ```python
 # Windows 10
 # python 3.12
