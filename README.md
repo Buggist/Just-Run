@@ -8,7 +8,7 @@ You can call python scripts with different versions of the python interpreter, a
 pip install justrun
 ```
 
-## Example - call by version
+## Example - call by version number
 
 caller.py *(Python 3.6)*
 ```python
@@ -43,7 +43,7 @@ params = jr.get_params()
 jr.return_data(your_processing_result)
 ```
 
-## Another Example - call by path
+## Another Example - call by python path
 
 caller.py
 ```python
