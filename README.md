@@ -3,7 +3,7 @@
 
 *"Your python version is too new for this package..."*
 
-*"You should try another version of python for your project..."*
+*"You should switch the python-version of your project and pray it won't crash..."*
 
 **Shut up and just run it !**
 
