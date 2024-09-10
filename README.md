@@ -18,7 +18,7 @@ It enable multiple python environment to work togather, even though they have di
 pip install justrun
 ```
 Every python environment that have to work with another, 
-should installed a copy of justrun.
+should installed a copy of **justrun**.
 
 ## Example - call by version number
 
