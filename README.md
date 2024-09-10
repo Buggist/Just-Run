@@ -1,5 +1,11 @@
 # Just-Run
-Shut up and just run it!
+*"Your python version is too old for this package..."*
+
+*"Your python version is too new for this package..."*
+
+*"You should try another version of python for your project..."*
+
+**Shut up and just run it!**
 
 You can call python scripts with different versions of the python interpreter, and get the returned data.
 
