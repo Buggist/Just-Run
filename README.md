@@ -17,7 +17,7 @@ It enable multiple python environment to work togather, even though they have di
 ```
 pip install justrun
 ```
-Every your python environment that have to work with another, 
+Every python environment that have to work with another, 
 should installed a copy of justrun.
 
 ## Example - call by version number
