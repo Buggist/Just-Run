@@ -27,16 +27,16 @@ caller.py *(Python 3.6)*
 
 import justrun as jr
 
-# run work.py through python 3.12 (that you already installed),
+# run worker.py through python 3.12 (that you already installed),
 # - and get the processing result in this python 3.6 script.
 result = jr.call_version(
     312,                        # in Linux/MacOS it should be "3.12" or 3.12
-    r"path\to\work.py",
+    r"path\to\worker.py",
     params=[var, another_var]
 )
 ```
 
-work.py *(Python 3.12)*
+worker.py *(Python 3.12)*
 ```python
 # Windows 10
 # python 3.12
@@ -62,11 +62,11 @@ caller.py
 
 import justrun as jr
 
-# run work.py through specified python virtual environment (created with any version),
+# run worker.py through specified python virtual environment (created with any version),
 # - and get processing result in this python 3.6 script.
 result = jr.call_pathon(
     r"path\to\your\python312\environment",    # such as r"c:\python-sandbox\312-myvenv"
-    r"path\to\work.py",
+    r"path\to\worker.py",
     params=[var, another_var]
 )
 ```
