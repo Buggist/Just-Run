@@ -1,9 +1,9 @@
 # Just-Run
-*"Your python version is too old for this package..."*
+~~*"Your python version is too old for this package..."*~~
 
-*"Your python version is too new for this package..."*
+~~*"Your python version is too new for this package..."*~~
 
-*"You should switch the python-version of your project and pray it won't crash..."*
+~~*"You should switch the python-version of your project and pray it won't crash..."*~~
 
 **Shut up and just run it !**
 
