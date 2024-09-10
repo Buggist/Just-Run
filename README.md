@@ -46,10 +46,10 @@ import justrun as jr
 # get parameters from other python interpreter.
 params = jr.get_params()
 
-# do your work here
+# do your work here with Python 3.12
 # ...
 
-# and send back the processing result.
+# and send back the processing result to Python 3.6.
 jr.return_data(your_processing_result)
 ```
 
