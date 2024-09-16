@@ -13,7 +13,7 @@ You can call python scripts with different versions of the python interpreter, a
 
 It enable multiple python environment to work togather, even though they have different versions!
 
-## Install
+## Installation
 ```
 pip install justrun
 ```
